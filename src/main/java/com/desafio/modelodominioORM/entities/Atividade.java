@@ -44,9 +44,9 @@ public class Atividade {
 	public Atividade() {
 	}
 
-	public Atividade(Integer id, String name, String descricao, Double preco) {
+	public Atividade(Integer id, String nome, String descricao, Double preco) {
 		this.id = id;
-		this.nome = name;
+		this.nome = nome;
 		this.descricao = descricao;
 		this.preco = preco;
 	}
@@ -59,12 +59,12 @@ public class Atividade {
 		this.id = id;
 	}
 
-	public String getName() {
+	public String getNome() {
 		return nome;
 	}
 
-	public void setName(String name) {
-		this.nome = name;
+	public void setNome(String nome) {
+		this.nome = nome;
 	}
 
 	public String getDescricao() {
@@ -85,6 +85,10 @@ public class Atividade {
 
 	public Set<Participante> getParticipantes() {
 		return participantes;
+	}
+
+	public Set<Bloco> getBlocos() {
+		return blocos;
 	}
 
 	

@@ -29,9 +29,9 @@ public class Participante {
 	public Participante() {
 	}
 
-	public Participante(Integer id, String name, String email) {
+	public Participante(Integer id, String nome, String email) {
 		this.id = id;
-		this.nome = name;
+		this.nome = nome;
 		this.email = email;
 	}
 
@@ -43,11 +43,11 @@ public class Participante {
 		this.id = id;
 	}
 
-	public String getName() {
+	public String getNome() {
 		return nome;
 	}
 
-	public void setName(String name) {
+	public void setNome(String name) {
 		this.nome = name;
 	}
 
